@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background: linear-gradient(to top left, royalblue, orange);
+            position: absolute;
+            animation-name: move;
+            animation-timing-function: cubic-bezier(0,2,1,-0.55);
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-play-state: running;
+            animation-direction: alternate;
+        }
+        @keyframes move{
+            from{
+                left: 0;
+            }
+            to{
+                left: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

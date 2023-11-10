@@ -1,0 +1,348 @@
+body{
+background-color: rgb(0, 200, 67);
+}
+.case{
+    height: 526px;
+    width: 275px;
+    background-color: black;
+    border-radius: 10px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.put{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.in{
+    height: 498px;
+    width: 265px;
+    background-color: white;
+    border-radius: 10px;
+}
+.head{
+    height: 86.929px;
+    width: 265px;
+    background-color: rgb(0,128,105);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.a{
+    height: 28.9763333333px;
+    width: 265px;
+}
+.aa{
+    height: 14.4881666667px;
+    width: 265px;
+    display: flex;
+    justify-content: space-between;
+}
+.ab{
+    height: 14.4881666667px;
+    width: 66.25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ac{
+    height: 14.4881666667px;
+    width: 66.25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.b{
+    height: 28.9763333333px;
+    width: 265px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.c{
+    height: 28.9763333333px;
+    width: 265px;
+    display: flex;
+    justify-content: space-between;
+}
+.ic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 88.3333333333px;
+}
+.rec{
+    width: 12px;
+}
+.wi{
+    width: 12px;
+}
+.bell{
+    width: 12px;
+}
+.wh{
+    width: 12px;
+}
+.bat{
+    width: 12px;
+}
+.face{
+    width: 12px;
+}
+.spot{
+    width: 12px;
+}
+.mes{
+    width: 12px;
+}
+.chats{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    height: 30px;
+}
+.status{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    height: 30px;
+}
+.calls{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    height: 30px;
+}
+.com{
+    
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cm{
+    width: 20px;
+}
+.foot{
+    height: 20px;
+    width: 265px;
+    background-color: gray;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position:  relative;
+    top: 395px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+.fa{
+    width: 88.3333333333px;
+    height: 20px;
+    background-color: gray;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fb{
+    width: 88.3333333333px;
+    height: 20px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fc{
+    width: 88.3333333333px;
+    height: 20px;
+    background-color: gray;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.list{
+    width: 15px;
+}
+.record{
+    width: 15px;
+}
+.caret{
+    width: 15px;
+}
+.chats:focus-within
+{
+    text-decoration: underline solid white 3px;
+    text-underline-offset: 6.5px;
+    color: white;
+}
+.status:focus-within
+{
+    text-decoration: underline solid white 3px;
+    text-underline-offset: 6.5px;
+    color: white;
+}
+.calls:focus-within
+{
+    text-decoration: underline solid white 3px;
+    text-underline-offset: 6.5px;
+    color: white; 
+}
+.bt{
+    background-color: transparent;
+    border: none;
+}
+.drop{
+    display: block;
+    position: absolute;
+    background-color: white;
+    height: 175px;
+    width: 125px;
+    border-radius: 10px;
+    right: 40.3%;
+    display: none;
+    z-index: 3;
+}
+a{
+    display: block;
+    text-decoration-line: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.i:focus-within .drop
+{
+    display: block;
+}
+.cc{
+    height: 44px;
+    width: 265px;
+    background-color: white;
+}
+.v{
+    width: 265px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    display: none;
+}
+.vv{
+    width: 265px;
+    height: 400px;
+    background-color: blue;
+    position: absolute;
+    left: 40.35%;
+    display: none;
+    overflow-y: scroll;
+    flex-wrap: wrap;
+}
+.vvv{
+    width: 265px;
+    height: 400px;
+    background-color: green;
+    position: absolute;
+    left: 40.35%;
+    display: none;
+}
+.vvvv{
+    width: 265px;
+    height: 400px;
+    background-color: red;
+    position: absolute;
+    left: 40.35%;
+    display: none;
+}
+.pa{
+    width: 265px;
+    height: 44.4444444444px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.151);
+    border-bottom: 1px solid gainsboro;
+}
+.pa:hover{
+    background-color: gainsboro;
+}
+.paa{
+    width: 35px;
+    height: 35px;
+    background-color: gray;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paaa{
+    width:230px;
+    height: 44.4444444444px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.pb{
+    width: 265px;
+    height: 44.4444444444px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.151);
+    border-bottom: 1px solid gainsboro;
+}
+.pbb{
+    width: 35px;
+    height: 35px;
+    background-color: gray;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pbbb{
+    width:230px;
+    height: 44.4444444444px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.cb{
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+.l:focus-within .v{
+    display: block;
+}
+.o:focus-within .vv{
+    display: block;
+}
+.oo:focus-within .vvv{
+    display: block;
+}
+.ooo:focus-within .vvvv{
+    display: block;
+}

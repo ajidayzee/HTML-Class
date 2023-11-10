@@ -1,0 +1,338 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(243,242,239);
+}
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.151);
+    position: fixed;
+    z-index: 3;
+}
+.nava{
+    width: 80%;
+    height: 85%;
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navb{
+    width: 20%;
+    height: 85%;
+    background-color: teal;
+    align-items: center;
+    display: flex;
+}
+.navbb{
+    height: 90%;
+    width: 50%;
+    background-color: brown;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}.log{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 35%;
+    height: 90%;
+}
+.mg{
+    width: 20px;
+}
+.mgb{
+    display: none;
+}
+.lg{
+    width: 40px;
+}
+#search{
+    width: 300px;
+    height: 35px;
+    background-color: rgb(238,243,248);
+    border: 0px solid transparent;
+    border-radius: 5px;
+}
+.pic{
+    width: 26px;
+    height: 26px;
+    background-color: grey;
+    border-radius: 100%;
+    background-image: url(profile.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.bb{
+    background-color: greenyellow;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.ab{
+    background-color: green;
+    width: 80%;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.aba{
+    width: 230px;
+    background-color: orange;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.one{
+    height: 380px;
+    width: 220px;
+    background-color: aqua;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+.rz{
+    width: 220px;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(coverphoto.png);
+    background-size: cover;
+    background-position: center;
+    border-top: 0.5px solid gainsboro;
+    border-left: 0.5px solid gainsboro;
+    border-right: 0.5px solid gainsboro;
+}
+.rx{
+    width: 220px;
+    height: 160px;
+    background-color: white;
+    position: absolute;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    border-left: 0.5px solid gainsboro;
+    border-right: 0.5px solid gainsboro;
+}
+.name{
+    width: 190px;
+    height: 50px;
+    background-color: red;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+}
+.namea{
+    width: 190px;
+    height: 50px;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.name:hover{
+    text-decoration: underline rebeccapurple 1px;
+}
+.sub{
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+.pp{
+    width: 65px;
+    height: 65px;
+    border: 2px solid white;
+    position: absolute;
+    border-radius: 100%;
+    margin: -32.5px;
+    margin-left: 72.5px;
+    z-index: 2;
+    background-image: url(profile.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.nn{
+    margin-top: 160px;
+}
+.rc{
+    width: 220px;
+    height: 60px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    border: 0.5px solid gainsboro;
+}
+.bn{
+    width: 220px;
+    height: 10px;
+}
+.bbn{
+    width: 220px;
+    height: 20px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(172,172,172);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.bbna{
+    width: 20px;
+    height: 20px;
+    color: rgb(47,125,203);
+    display: flex;
+    align-items: center;
+}
+.bbn:hover{
+    background-color: rgb(236,236,236);
+}
+.rv{
+    width: 220px;
+    height: 60px;
+    background-color: red;
+    position: relative;
+    border-left: 0.5px solid gainsboro;
+    border-right: 0.5px solid gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+.rv:hover{
+    background-color:  rgb(236,236,236);
+}
+.rb{
+    width: 220px;
+    height: 40px;
+    background-color: green;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    border: 0.5px solid gainsboro;
+}
+.rb:hover{
+    background-color:  rgb(236,236,236);
+}
+.onea{
+    width: 220px;
+    height: 500px;
+    background-color: red;
+    border-radius: 10px;
+}
+.av{
+    width: 550px;
+    height: 500px;
+    background-color: rebeccapurple;
+    margin-top: 80px;
+    justify-content: center;
+    display: flex;
+}
+.hna{
+    width: 98%;
+    height: 115px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.151);
+}
+.hnn{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.hnnn{
+    width: 100%;
+    height: 55px;
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    justify-content: space-evenly;
+    display: flex;
+}
+.hn{
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    border-radius: 100%;
+    background-image: url(profile.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.middle{
+    background-color: white;
+    width: 85%;
+    height: 50px;
+    border: 1.5px solid gainsboro;
+    border-radius: 50px;
+    color: gray;
+    text-align: left;
+    padding-left: 20px;
+}
+.middle:hover{
+    background-color: rgb(235,235,235);
+}
+.midler{
+    color: gray;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.midler:hover{
+    background-color: rgb(235,235,235);
+}
+.ava{
+    width: 280px;
+    background-color: orange;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.avaa{
+    height: 380px;
+    width: 270px;
+    background-color: aqua;
+    border-radius: 10px;
+    margin-top: 80px;
+    border: 0.5px solid gainsboro;
+}
+.avab{
+    width: 270px;
+    height: 500px;
+    background-color: red;
+    border-radius: 10px;
+}

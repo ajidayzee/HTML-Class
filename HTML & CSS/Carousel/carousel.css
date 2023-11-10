@@ -1,0 +1,53 @@
+.boxa{
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    object-fit: cover;
+    border: 2px solid gainsboro;
+    border-radius: 8px;
+}
+.boxb{
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    object-fit: cover;
+    border: 2px solid gainsboro;
+    border-radius: 8px;
+}
+.boxc{
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    object-fit: cover;
+    border: 2px solid gainsboro;
+    border-radius: 8px;
+}
+.main-carousel{
+    width: 1200px;
+    height: 377.95px;
+}
+.cell{
+    width: 377px;
+    height: 377px;
+    margin: 0px 18px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ww{
+    color: blue;
+    font-size: 50px;
+}
+h1{
+    animation-name: slidein;
+    animation-duration: 2s;
+}
+@keyframes slidein{
+    from{
+        margin-top: 100%;
+    }
+    to{
+        margin-top: 0%;
+    }
+}

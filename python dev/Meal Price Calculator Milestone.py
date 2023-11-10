@@ -1,0 +1,10 @@
+#Meal prices
+child = float(input("What is the price of a child's meal?" + " "))
+adult = float(input("What is the price of an adult's meal?" + " "))
+no_of_children = int(input("How many children are there?" + " "))
+no_of_adults = int(input("How many adults are there?" + " "))
+children_total = float(child * no_of_children)
+adult_total = float(adult * no_of_adults)
+subtotal =  float(children_total + adult_total)
+print()
+print("Subtotal:" + " " + "$" +  str(subtotal))
