@@ -3,7 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> -->
+    <script src="https://kit.fontawesome.com/8a7248b23f.js" crossorigin="anonymous"></script>
+    <script defer>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="Port 3.css">
 </head>
@@ -28,13 +42,13 @@
     </div>
     <!---------- About---------->
     <div id="about">
-        <div class="cont">
+        <div class="container">
             <div class="row">
                 <div class="col-1">
                     <img src="logo.png " alt="">
                 </div>
                 <div class="col-2">
-                    <h1 class="sub">About Me</h1>
+                    <h1 class="sub-title">About Me</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores dolore dicta veniam tempore delectus pariatur molestiae molestias numquam? Eius quod tempore quos illum eos facere minima cum quis recusandae ipsum?
                     </p>
                     <div class="tab-titles">
@@ -68,9 +82,32 @@
             </div>
         </div>
     </div>
-    <script src="script.js">
-        var tablinks = document.getElementById("tab-links");
-        var tabcontents = document.getElementById("tab-contents");
+    <!-- --------Services-------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae cupiditate aspernatur quaerat eaque sed, ducimus provident ratione soluta possimus itaque necessitatibus, laudantium veritatis similique recusandae doloremque incidunt nisi quas. Ipsa!</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae cupiditate aspernatur quaerat eaque sed, ducimus provident ratione soluta possimus itaque necessitatibus, laudantium veritatis similique recusandae doloremque incidunt nisi quas. Ipsa!</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae cupiditate aspernatur quaerat eaque sed, ducimus provident ratione soluta possimus itaque necessitatibus, laudantium veritatis similique recusandae doloremque incidunt nisi quas. Ipsa!</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
         function opentab(tabname) {
             for(tablink of tablinks){
                 tablink.classList.remove("active-link");
@@ -81,6 +118,6 @@
             event.currentTarget.classList.add("active-link");
             document.getElementById(tabname).classList.add("active-tab");
         }
-    </script>
+    </script> -->
 </body>
 </html>
