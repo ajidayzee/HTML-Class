@@ -26,13 +26,15 @@
         <div class="container">
             <nav>
                 <img src="logo.png" class="logo" alt="">
-                <ul>
+                <ul id="sidemenu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
                 <p>Frontend Developer</p>
@@ -147,17 +149,28 @@
             <div class="row">
                 <div class="contact-left">
                     <h1 class="sub-title">Contact Me</h1>
-                    <p>ajibolaemmanuelmonday@gmail.com</p>
-                    <p>+2348103625873</p>
+                    <p> <i class="fa-solid fa-envelope"></i> ajibolaemmanuelmonday@gmail.com</p>
+                    <p> <i class="fa-solid fa-square-phone"></i> +234 810 362 5873</p>
                     <div class="social-icons">
                         <a href="https://www.facebook.com/profile.php?id=100078675536859&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
                         <a href="https://www.linkedin.com/in/emmanuel-monday-a-ajibola-1b6609280"><i class="fa-brands fa-linkedin"></i></a>
                         <a href="https://www.instagram.com/ajibola3324"><i class="fa-brands fa-instagram"></i></a>
                         <!-- <a href="#"></a> -->
                     </div>
+                    <a href="Resume-Emmanuel-Monday-A.-Ajibola.pdf" download class="btn btn2">Download CV</a>
                 </div>
-                <div class="contact-right"></div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" id="" autocomplete="email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
             </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-solid fa-heart"></i> 2023</p>
         </div>
     </div>
     <script>
@@ -173,6 +186,16 @@
             event.currentTarget.classList.add("active-link");
             document.getElementById(tabname).classList.add("active-tab");
         }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){sidemenu.style.right = '0';}
+            sidemenu.style.right = '0';
+        
+        function closemenu(){
+            sidemenu.style.right = '-200px';
+        } 
     </script>
 </body>
 </html>
