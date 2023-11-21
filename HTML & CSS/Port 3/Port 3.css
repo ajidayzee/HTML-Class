@@ -5,6 +5,9 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: #080808;
     color: #fff;
@@ -66,6 +69,10 @@ nav ul li a:hover::after{
 /* ---------------About--------------- */
 #about{
     padding: 80px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     color: #ababab;
 }
 .row{
@@ -83,7 +90,7 @@ nav ul li a:hover::after{
 .col-2{
     flex-basis: 60%;
 }
-.sub{
+.sub-title{
     font-size: 60px;
     font-weight: 600;
     color: #fff;
@@ -363,4 +370,12 @@ nav .fa-solid{
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
+    .copyright{
+        font-size: 14px;
+    }
+}
+#msg{
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
 }
