@@ -497,7 +497,6 @@ nav .fa-solid{
     }
 }
 @media(max-width:320px) {
-
     .shape{
         width: 300px;
         position: absolute;
