@@ -25,23 +25,32 @@
     <link rel="stylesheet" href="Port 3.css">
 </head>
 <body>
+    <div class="nav-bar">
+        <nav>
+        <h2 class="logo"><span>M</span>ondayz.</h2>
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+</div>
     <div id="header">
         <div class="container">
-            <nav>
-                <img src="logo.png" class="logo" alt="">
-                <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-                </ul>
-                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-            </nav>
+            
             <div class="header-text">
+                <div class="top">
                 <p>Frontend Developer</p>
-                <h1>Hi I'm <span>Emmanuel</span><br>Ajibola From Nigeria</h1>
+                <h1>Hi I'm <span>Emmanuel</span><br>Monday Ajibola</h1>
+                </div>
+                <div class="pic">
+                    <img class="shape" src="Shape-PNG-Image.png" alt="">
+                    <img class="self" src="BSD_6726-removebg-preview.png" alt="">
+                </div>
             </div>
         </div>
     </div>
@@ -104,7 +113,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, nihil. Obcaecati neque aperiam unde voluptatibus labore consequuntur provident est, velit illo aut praesentium quae.</p>
                     <a href="#">Learn More</a>
                 </div>
-                <div>
+                <div class="third">
                     <i class="fa-solid fa-hashtag"></i>
                     <h2>App Design</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, nihil. Obcaecati neque aperiam unde voluptatibus labore consequuntur provident est, velit illo aut praesentium quae.</p>
