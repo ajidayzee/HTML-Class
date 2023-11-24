@@ -77,11 +77,14 @@ nav ul li a:hover::after{
 
 .top{
     width: 100%;
-    /* background: red; */
+    background: red;
 }
 .m{
     width: 100%;
-    /* background: green; */
+    background: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .header-text h1{
     font-size: 60px;
