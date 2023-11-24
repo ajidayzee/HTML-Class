@@ -3,12 +3,13 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 html{
     scroll-behavior: smooth;
 }
 body{
+
     background: #080808;
     color: #fff;
 }
@@ -27,9 +28,9 @@ body{
 .logo span{
     color: #61b752;
 }
-/* .container{
+.container{
     padding: 10px 10px;
-} */
+}
 .logo{
     width: 50px;
 }
@@ -43,7 +44,7 @@ nav{
 }
 nav ul li{
     display: inline-block;
-    list-style: none;
+    list-style: none;  
     margin: 10px 20px;
 }
 nav ul li a{
@@ -75,17 +76,12 @@ nav ul li a:hover::after{
 }
 
 .top{
-    background-color: red;
+    width: 100%;
+    /* background: red; */
 }
-.top-2{
-    background-color: yellow;
-    position: absolute;
-    right: 20%;
-    bottom: 10%;
-}
-.header-text{
-    display: flex;
-    justify-content: space-between;
+.m{
+    width: 100%;
+    /* background: green; */
 }
 .header-text h1{
     font-size: 60px;
@@ -344,31 +340,11 @@ form .btn2{
 nav .fa-solid{
     display: none;
 }
-
-@media(max-width:320px) {
-    .top-2{
-        background-color: yellow;
-        position: absolute;
-        right: 20%;
-        bottom: 20%;
-    }
-}
-
-@media(max-width:425px) {
-    .top-2{
-        background-color: yellow;
-        position: absolute;
-        right: 20%;
-        bottom: 20%;
-    }
-}
-
-@media(max-width: 600px) {
+@media only screen and (max-width: 600px) {
     #header{
         background-color: #080808;
     }
     .header-text{
-        margin-top: 100%;
         font-size: 15px;
     }
     .header-text h1{
@@ -420,33 +396,87 @@ nav .fa-solid{
     }
     .copyright{
         font-size: 14px;
-    } 
+    }
 }
-
-@media(max-width: 768px){
-    .header-text{
-        display: flex;
-        justify-content: space-between;
-        margin-top: 20%;
-        font-size: 20px;
+/* @media only screen and (max-width: 1024px){
+    .shape{
+        width: 200px;
+    }
+    .self{
+        width: 300px;
+        transition:ease-in 1s;
+    }
+    .self:hover{
+        margin-left: 20%;
+    }
+    .shape{
+        width: 450px;
+        position: absolute;
+        right: -60px;
+        transition: ease-in 1s;
+    }
+    .self{
+        position: relative;
+        right: 20px;
+        transition: ease-in 1s;
+        z-index: 1;
+        bottom: 25px;
+    }
+    .shape:hover{
+        margin-bottom: 40px;
+    }
+    .self:hover{
+        margin-left: 30%; 
     }
     
-    .top-2{
-        background-color: green;
-        /* position: absolute; */
-        /* right: 0; */
-        /* bottom: 10%; */
-    }
 }
+@media(max-width:425px) {
 
-@media(max-width: 1024px){
-    .top-2{
-        background-color: yellow;
+    .shape{
+        width: 400px;
         position: absolute;
-        right: 20%;
-        bottom: 20%;
+        bottom: 200px;
+        right: 30px;
+        transition: ease-in 1s;
+    }
+    .self{
+        width: 200px;
+        position: relative;
+        right: 120px;
+        transition: ease-in 1s;
+        z-index: 1;
+        bottom: 250px;
+    }
+    .shape:hover{
+        margin-bottom: 10px;
+    }
+    .self:hover{
+        margin-left: 10%; 
     }
 }
+@media(max-width:320px) {
+    .shape{
+        width: 300px;
+        position: absolute;
+        bottom: 180px;
+        right: 30px;
+        transition: ease-in 1s;
+    }
+    .self{
+        width: 150px;
+        position: relative;
+        right: 120px;
+        transition: ease-in 1s;
+        z-index: 1;
+        bottom: 210px;
+    }
+    .shape:hover{
+        margin-bottom: 10px;
+    }
+    .self:hover{
+        margin-left: 10%; 
+    }
+} */
 
 #msg{
     color: #ff004f;

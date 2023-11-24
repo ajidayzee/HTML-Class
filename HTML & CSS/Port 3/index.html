@@ -4,20 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/8a7248b23f.js" crossorigin="anonymous"></script>
-    <!-- <script defer>
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
-        function opentab(tabname) {
-            for(tablink of tablinks){
-                tablink.classList.remove("active-link");
-            }
-            for(tabcontent of tabcontents){
-                tabcontent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
-        }
-    </script> -->
     <title>Personal Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
@@ -25,6 +11,7 @@
     <link rel="stylesheet" href="Port 3.css">
 </head>
 <body>
+    <!-- ----------- Home----------- -->
     <div class="nav-bar">
         <nav>
         <h2 class="logo"><span>M</span>ondayz.</h2>
@@ -43,10 +30,11 @@
         <div class="container"> 
             <div class="header-text">
                 <div class="top">
-                <p>Frontend Developer</p>
-                <h1>Hi I'm <span>Emmanuel</span><br>Monday Ajibola</h1>
-                </div>
-                <div class="top-2"><img class="self" src="BSD_6726-removebg-preview.png" alt=""></div>
+                    <h1>Hi I'm <span>Emmanuel</span><br>Monday Ajibola</h1>
+                    </div>
+               <div class="m"> 
+                <p>Frontend Developer</p> 
+            </div>
             </div>
         </div>
     </div>
@@ -159,15 +147,14 @@
     <div id="contact">
         <div class="container">
             <div class="row">
+                <h1 class="sub-title">Contact Me</h1>
                 <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1>
                     <p> <i class="fa-solid fa-envelope"></i> ajibolaemmanuelmonday@gmail.com</p>
                     <p> <i class="fa-solid fa-square-phone"></i> +234 810 362 5873</p>
                     <div class="social-icons">
                         <a href="https://www.facebook.com/profile.php?id=100078675536859&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
                         <a href="https://www.linkedin.com/in/emmanuel-monday-a-ajibola-1b6609280"><i class="fa-brands fa-linkedin"></i></a>
                         <a href="https://www.instagram.com/ajibola3324"><i class="fa-brands fa-instagram"></i></a>
-                        <!-- <a href="#"></a> -->
                     </div>
                     <a href="Resume-Emmanuel-Monday-A.-Ajibola.pdf" download class="btn btn2">Download CV</a>
                 </div>
@@ -200,6 +187,7 @@
             document.getElementById(tabname).classList.add("active-tab");
         }
     </script>
+    <!-- ----------------- Javascript For Hamburger Navigation Bar ---------------------- -->
     <script>
         var sidemenu = document.getElementById("sidemenu");
 
@@ -210,6 +198,7 @@
             sidemenu.style.right = '-200px';
         } 
     </script>
+    <!-- ----------- Javascript For Form ----------------- -->
     <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbwdWJIw044WbOj__nd1iHt8BvPv2nRw51wXJMFw0d9XjTx_Z6DTh5IkzmUFt-m39bI/exec'
         const form = document.forms['submit-to-google-sheet']
