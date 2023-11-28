@@ -72,3 +72,6 @@ nav:hover{
     position: absolute;
     bottom: 0;
 }
+i:hover{
+    color: #ff004f;
+}
