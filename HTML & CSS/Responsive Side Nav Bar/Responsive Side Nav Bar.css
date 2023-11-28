@@ -75,3 +75,6 @@ nav:hover{
 i:hover{
     color: #ff004f;
 }
+.nav-item:hover{
+    color: #ff004f;
+}
