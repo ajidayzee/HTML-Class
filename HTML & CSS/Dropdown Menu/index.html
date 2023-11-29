@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Dropdown Menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="Dropdown Menu.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li class="nav-link">
+                    <a href="#">Home</a>
+                </li>
+                <li class="nav-link services">
+                    <a href="#">Services
+                        <!-- <i class="fa-solid fa-caret-down"></i> -->
+                        <span class="material-icons dropdown-icon">
+                            arrow_drop_down
+                        </span>
+                    </a>
+                    <ul class="drop-down">
+                        <li>Services 1</li>
+                        <li>Services 2</li>
+                        <li>Services 3</li>
+                    </ul>
+                </li>
+                <li class="nav-link">
+                    <a href="#">About</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
