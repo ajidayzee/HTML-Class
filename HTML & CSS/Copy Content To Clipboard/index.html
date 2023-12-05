@@ -25,10 +25,19 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nulla eaque officiis neque exercitationem nam hic non inventore aliquid culpa, optio corporis facilis ipsa. Quas quasi exercitationem illum sapiente dolores?
             
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, nesciunt fugit. Error quisquam, expedita, optio aut odit nemo repudiandae ad, ipsa deleniti quasi esse architecto ex sequi dolores porro rerum.
-        
-        
         </textarea>
     </div>
+
+    <script type="text/javascript">
+     const copyBtn = document.querySelector(".copy-btn");
+     const textarea = document.querySelector("textarea");
+     
+     copyBtn.addEventListener("click", () => {
+        textarea.select();
+        document.execCommand("copy");
+        copyBtn.innerHTML = " <i class='fa-solid fa-check'></i> "
+     });
+    </script>
 
 </body>
 </html>
