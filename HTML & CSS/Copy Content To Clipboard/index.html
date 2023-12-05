@@ -36,6 +36,15 @@
         textarea.select();
         document.execCommand("copy");
         copyBtn.innerHTML = "<i class='fa-solid fa-check'></i>";
+        copyBtn.style.background = "#2DCDA7";
+        copyBtn.style.color = "#fff";
+
+        setTimeout(() => {
+            document.getSelection().removeAllRanges();
+            copyBtn.innerHTML = "<i class='fa-solid fa-check'></i>";
+            copyBtn.style.background = "";
+            copyBtn.style.color = "";
+        }, 2000);
      });
     </script>
 
